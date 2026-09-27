@@ -45,3 +45,7 @@ article {
     margin: 16px;
     padding: 8px;
 }
+
+.socialmedia a {
+    text-decoration: none;
+}
