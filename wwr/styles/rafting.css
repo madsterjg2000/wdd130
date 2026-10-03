@@ -13,8 +13,8 @@ header {
     color: var(--accent2-color);
 }
 
-headter a {
-    color: #ffffff;
+nav a {
+    color: #ffffff !important;
 }
 
 * {
