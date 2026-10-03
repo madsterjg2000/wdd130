@@ -163,3 +163,27 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+.adventures-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+
+.adventures-section figure {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.adventures-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.adventures-section figcaption {
+    padding-top: 8px;
+    font-weight: bold;
+}
