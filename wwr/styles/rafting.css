@@ -111,3 +111,26 @@ h1 {
     height: auto;
     display: block;
 }
+
+.adventure-section h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.adventure-grid figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 8px;
+}
