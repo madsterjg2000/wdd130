@@ -166,3 +166,20 @@ h1 {
     display: block;
     margin-bottom: 8px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
