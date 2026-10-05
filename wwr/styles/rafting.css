@@ -20,18 +20,29 @@ header {
     padding: 15px 30px;
 }
 
-.main-menu {
+.main-menu,
+.main-menu ul {
+
     display: flex;
     gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-menu li {
+    display: block;
 }
 
 .main-menu a {
     text-decoration: none;
     color: black;
-    background-color: #fff;
+    background-color: rgb(24, 41, 88);
     padding: 8px 16px;
     border: 1px solid #000;
     border-radius: 4px;
+    display: inline-block;
 }
 
 nav a {
