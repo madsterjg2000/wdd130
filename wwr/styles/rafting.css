@@ -13,6 +13,27 @@ header {
     color: var(--accent2-color);
 }
 
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
 nav a {
     color: #ffffff !important;
 }
