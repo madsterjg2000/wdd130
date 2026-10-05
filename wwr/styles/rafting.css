@@ -92,3 +92,22 @@ h1 {
     float: right;
     width: 125px;
 }
+
+.history-inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    align-items: center;
+
+}
+
+.history-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
