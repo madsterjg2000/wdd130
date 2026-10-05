@@ -26,7 +26,7 @@ nav a {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1--color)
+    color: var(--accent1--color);
 }
 
 header,
