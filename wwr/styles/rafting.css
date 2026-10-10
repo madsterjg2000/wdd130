@@ -156,4 +156,9 @@ textarea {
 
 .submit-btn {
     padding: 10px 20px;
+    background-color: var(--accent1-color);
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border-radius: 4px;
 }
