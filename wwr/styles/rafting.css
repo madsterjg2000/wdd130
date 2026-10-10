@@ -131,6 +131,7 @@ section {
     gap: 8px;
 }
 
+input[type=email],
 input[type="text"],
 textarea {
     width: 100%;
@@ -153,7 +154,7 @@ textarea {
     border-radius: 4px;
 }
 
-.services-section {
+.Services-section {
     background-color: #f4f4f6;
 
     padding: 30px 20px;
