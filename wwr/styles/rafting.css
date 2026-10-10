@@ -57,7 +57,7 @@ nav a {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1--color);
+    color: var(--accent1-color);
 }
 
 header,
@@ -102,7 +102,7 @@ section {
 .form-box form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     margin-top: 5px;
 }
 
@@ -110,6 +110,16 @@ section {
     display: grid;
     grid-template-columns: 80px 1fr;
     align-items: center;
+}
+
+.form-group.radio-group {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    align-items: start;
+}
+
+.form-group .with-checkbox {
+    display: block;
 }
 
 .form-group input {
@@ -157,7 +167,7 @@ textarea {
     padding: 30px 20px;
     margin-top: 30px;
     border-radius: 4px;
-    display: flex;
+    display: block;
 
     flex-direction: column;
     align-items: center;
@@ -187,7 +197,7 @@ textarea {
 }
 
 footer {
-    width: 840;
+    width: 840px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
