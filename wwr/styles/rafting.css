@@ -122,7 +122,8 @@ section {
     display: block;
 }
 
-.form-group input {
+.form-group input[type="text"],
+.form-group input[type="email"] {
     width: 100%;
     padding: 8px;
     border: 1px solid#ccc;
