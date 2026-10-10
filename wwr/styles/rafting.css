@@ -3,6 +3,7 @@
 
     --accent1-color: #184E77;
     --accent2-color: black;
+    --accent3-color: #101010;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -70,7 +71,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent3-color);
 }
 
 p,
