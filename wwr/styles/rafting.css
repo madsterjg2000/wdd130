@@ -115,6 +115,8 @@ section {
 .form-group input {
     width: 100%;
     padding: 8px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
     box-sizing: border-box;
 }
 
@@ -131,19 +133,14 @@ section {
     gap: 8px;
 }
 
-input[type=email],
-input[type="text"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 textarea {
     height: 100px;
     resize: vertical;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box
 }
 
 .submit-btn {
@@ -168,7 +165,7 @@ textarea {
 
 }
 
-.services-section h2 {
+.Services-section h2 {
     margin-bottom: 24px;
 }
 
