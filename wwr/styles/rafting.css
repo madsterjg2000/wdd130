@@ -79,27 +79,6 @@ section {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-.socialmedia {
-    display: flex;
-}
-
-.socialmedia img {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-}
-
 .company-heading {
     text-align: center;
     margin: 20px auto;
@@ -194,6 +173,8 @@ textarea {
 }
 
 footer {
+    width: 840;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
