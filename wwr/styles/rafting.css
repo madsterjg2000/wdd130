@@ -174,3 +174,41 @@ textarea {
 .services-section h2 {
     margin-bottom: 24px;
 }
+
+.services-section .employee-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+}
+
+.employee-card .photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid var(--primary-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
