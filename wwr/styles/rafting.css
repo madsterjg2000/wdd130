@@ -139,3 +139,21 @@ footer {
     align-items: center;
     gap: 8px;
 }
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+}
