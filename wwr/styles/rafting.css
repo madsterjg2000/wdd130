@@ -44,6 +44,29 @@ header {
     display: inline-block;
 }
 
+.hero-inside {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-inside p {
+    flex: 2;
+}
+
+.hero img {
+    flex: 1;
+    max-width: 200px;
+    height: auto;
+}
+
+.history-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 nav a {
     color: #ffffff !important;
 }
