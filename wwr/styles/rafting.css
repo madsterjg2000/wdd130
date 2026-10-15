@@ -433,9 +433,8 @@ footer {
 
 .grid-home-inside {
     background-color: dodgerblue;
-    border: 1px solid blanchedalmond;
+    border: 1px solid #000;
     border-radius: 4px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
