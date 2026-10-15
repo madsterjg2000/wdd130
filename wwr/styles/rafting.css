@@ -496,3 +496,17 @@ footer {
     padding: 0;
 
 }
+
+.trips-textmain {
+    color: black;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
