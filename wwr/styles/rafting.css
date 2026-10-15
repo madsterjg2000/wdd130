@@ -358,9 +358,10 @@ footer {
     border-radius: 50%;
     background: linear-gradient(darkblue);
 
+    font-family: 'Times New Roman', Times, serif;
     color: #eee;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
     text-shadow: #333;
 
     display: flex;
