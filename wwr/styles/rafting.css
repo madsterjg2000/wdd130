@@ -46,7 +46,8 @@ header {
 
 .hero {
     position: relative;
-    height: 400px;
+    height: 450px;
+    margin-bottom: 40px;
 }
 
 .hero h1 {
@@ -56,9 +57,10 @@ header {
 
 .hero-article {
     position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
     display: block;
-    align-items: center;
-    gap: 30px
 }
 
 .hero-article p {
@@ -71,11 +73,10 @@ header {
 
 .hero-article img {
     float: right;
-    width: 200px;
+    width: 222px;
     height: auto;
     object-fit: cover;
     border-radius: 4px;
-    margin-left: 20px;
 }
 
 .history-section {
