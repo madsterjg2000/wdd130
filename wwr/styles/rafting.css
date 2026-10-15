@@ -386,4 +386,7 @@ footer {
 
 .call-to-action-home h2 {
     color: #ccc;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: #101010;
 }
