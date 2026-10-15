@@ -330,8 +330,10 @@ footer {
 
 .hero-homepage {
     position: relative;
-    width: 100;
-    height: 90vh;
+    width: 840px;
+    height: 500px;
+    margin: 0 auto 40px auto;
+
     background-color: steelblue;
     overflow: hidden;
 
