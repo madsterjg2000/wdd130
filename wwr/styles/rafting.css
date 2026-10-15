@@ -567,6 +567,13 @@ footer {
     text-align: center;
     margin-top: 30px;
     border-radius: 4px;
+
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #eee;
+    border-radius: 4px;
 }
 
 table {
