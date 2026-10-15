@@ -530,20 +530,6 @@ footer {
     padding: 0;
 }
 
-.trip-main h1 {
-    color: seagreen;
-    font-size: 3rem;
-    font-weight: 900;
-    text-shadow: #333;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 .trip-photo {
     flex: 1 1 350px;
     margin: 0;
