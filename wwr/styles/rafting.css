@@ -75,6 +75,7 @@ header {
 }
 
 .hero-article img {
+    float: right;
     flex: 0 0 200px;
     max-width: 200px;
     height: auto;
