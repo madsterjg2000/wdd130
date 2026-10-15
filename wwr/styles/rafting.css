@@ -44,24 +44,24 @@ header {
     display: inline-block;
 }
 
-.hero {
+.hero-article {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.hero-section h1 {
+.hero h1 {
     margin-bottom: 15px;
 }
 
-.hero p {
+.hero-article p {
     flex: 2;
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
 
-.hero img {
+.hero-article img {
     flex: 1;
     max-width: 250px;
     height: auto;
@@ -69,7 +69,7 @@ header {
     border-radius: 4px;
 }
 
-.history-section h2 {
+.history h2 {
     text-align: center;
     margin-bottom: 20px;
 }
