@@ -76,8 +76,9 @@ header {
 
 .hero article img {
     float: right;
-    width: 222px;
+    width: 150px;
     height: auto;
+    margin-left: 20px;
     object-fit: cover;
     border-radius: 4px;
 }
