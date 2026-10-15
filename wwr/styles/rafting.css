@@ -419,9 +419,24 @@ footer {
 }
 
 .grid-home {
-    d
+    margin: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .grid-home-hold {
-    d
+    background-color: dodgerblue;
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
+.grid-home-inside {}
+
+.grid-pic {}
+
+.grid-text {}
