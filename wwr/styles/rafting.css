@@ -510,3 +510,32 @@ footer {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.trips-three {
+    max-width: 950px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+    padding: 0 20px;
+
+}
+
+.trips-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.trip-photo {
+    flex: 1;
+    margin: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.trip-text {
+    flex: 1;
+
+}
