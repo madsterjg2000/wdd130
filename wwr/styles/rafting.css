@@ -435,8 +435,20 @@ footer {
     flex-direction: column;
 }
 
-.grid-home-inside {}
+.grid-pic {
+    width: 100%;
+    height: 200px;
+}
 
-.grid-pic {}
+.grid-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
-.grid-text {}
+.grid-text {
+    padding: 25px;
+    text-align: center;
+    flex-grow: 1;
+}
