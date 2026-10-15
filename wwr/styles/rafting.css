@@ -95,6 +95,18 @@ header {
     height: auto;
 }
 
+.adventure-grid {
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 nav a {
     color: #ffffff !important;
 }
