@@ -512,7 +512,7 @@ footer {
 }
 
 .trips-three {
-    max-width: 950px;
+    max-width: 800px;
     margin: 40px;
     display: flex;
     flex-direction: column-reverse;
