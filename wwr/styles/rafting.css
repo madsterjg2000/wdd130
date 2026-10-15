@@ -386,8 +386,8 @@ footer {
 
 .call-to-action-home a {
     text-decoration: none;
-    color: black;
-    background-color: rgb(24, 41, 88);
+    color: white;
+    background-color: rgb(darkblue);
     padding: 8px 16px;
     border: 1px solid #000;
     border-radius: 4px;
@@ -395,7 +395,7 @@ footer {
 }
 
 .call-to-action-home h2 {
-    color: #ccc;
+    color: white;
     font-size: 2rem;
     font-weight: 600;
     text-shadow: #101010;
