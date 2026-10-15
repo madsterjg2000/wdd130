@@ -68,6 +68,9 @@ header {
     left: 20px;
     right: 20px;
     display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
 }
 
 .hero article p {
