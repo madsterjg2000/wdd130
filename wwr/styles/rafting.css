@@ -60,7 +60,7 @@ header {
     height: auto;
 }
 
-.history-section {
+.history-section h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -70,6 +70,19 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+.history-text {
+    flex: 1;
+}
+
+.history-image {
+    flex: 0 0 200px;
+}
+
+.history-image {
+    width: 100%;
+    height: auto;
 }
 
 nav a {
