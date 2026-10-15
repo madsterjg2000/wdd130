@@ -329,17 +329,23 @@ footer {
 }
 
 .hero-homepage {
+    position: relative;
     width: 100;
     height: 90vh;
     background-color: steelblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+
 }
 
 .circle {
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     background: linear-gradient(darkblue);
     box-shadow: #333;
