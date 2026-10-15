@@ -45,6 +45,7 @@ header {
 }
 
 .hero-article {
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -62,8 +63,8 @@ header {
 }
 
 .hero-article img {
-    flex: 1;
-    max-width: 250px;
+    flex: 0 0 200px;
+    max-width: 200px;
     height: auto;
     object-fit: cover;
     border-radius: 4px;
