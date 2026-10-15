@@ -116,6 +116,12 @@ header {
     padding: 20px;
 }
 
+.adventure-section h2 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    width: 100%;
+}
+
 .adventure-grid {
     display: flex;
     justify-content: space-between;
