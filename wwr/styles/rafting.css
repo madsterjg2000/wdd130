@@ -44,6 +44,10 @@ header {
     display: inline-block;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero-article {
     position: absolute;
     display: flex;
@@ -52,7 +56,15 @@ header {
 }
 
 .hero h1 {
+    position: absolute;
     margin-bottom: 15px;
+}
+
+.hero-article {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 30px
 }
 
 .hero-article p {
