@@ -521,6 +521,10 @@ footer {
 
 }
 
+.centered-heading {
+    text-align: center;
+}
+
 .trips-row {
     display: flex;
     flex-wrap: wrap;
