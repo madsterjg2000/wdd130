@@ -46,23 +46,27 @@ header {
 
 .hero {
     position: relative;
-    height: 450px;
+    height: 400px;
     margin-bottom: 40px;
     border: 1px solid #000;
     padding: 20px
 }
 
 .hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     text-align: center;
     margin: 10px 0 20px 0;
     width: 100%;
+    z-index: 2;
 }
 
 .hero-article {
     position: absolute;
-    top: 70px;
-    left: 0;
-    right: block;
+    top: 100px;
+    left: 20px;
+    right: 20px;
     display: block;
 }
 
@@ -76,7 +80,7 @@ header {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 222px;
     height: auto;
     margin-left: 20px;
     object-fit: cover;
