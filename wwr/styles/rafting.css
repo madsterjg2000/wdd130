@@ -66,7 +66,7 @@ header {
     display: block;
 }
 
-.hero-article p {
+.hero article p {
     flex: 2;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ header {
     margin-right: 240px;
 }
 
-.hero-article img {
+.hero article img {
     float: right;
     width: 222px;
     height: auto;
