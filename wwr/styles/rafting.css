@@ -426,7 +426,7 @@ footer {
 }
 
 .grid-home-hold {
-    margin: grid;
+    display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
     max-width: 800px;
