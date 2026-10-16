@@ -357,13 +357,13 @@ footer {
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    background: linear-gradient(darkblue);
+    background: linear-gradient(darkblue, blue);
 
     font-family: 'Times New Roman', Times, serif;
     color: #eee;
     font-size: 3rem;
     font-weight: 700;
-    text-shadow: #333;
+    text-shadow: 2px 2px #333;
 
     display: flex;
     justify-content: center;
