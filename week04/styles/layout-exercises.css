@@ -32,11 +32,14 @@ div {
 
 .grid {
     background-color: #abb;
+    display: grid;
+    place-items: center;
     /* enter declarations here */
 
 }
 
 .container2 {
+    display: flex;
     /* write declarations here */
 
 }
@@ -47,11 +50,14 @@ div {
 }
 
 .container3 {
+    display: grid;
     /* write declarations here */
 
 }
 
 .columns-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     /* write declaration here */
 
 }
